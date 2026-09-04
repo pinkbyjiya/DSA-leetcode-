@@ -4,7 +4,7 @@ public:
         int m = nums1.size();
         int n = nums2.size();
 
-        vector<int> temp(m+n); //m+n size ka kyuki dono merge ho jaenge 
+        vector<int> temp(m+n); //m+n size ka kyuki dono merge ho jaenge aur ye kaafi dard dega kyuki ye space zyada le rha h ise ghata kr hume 0(1) me bhi kr skte h with diff approches 
 
         int i = 0; //nums1 ko point krega 
         int j = 0; //nums2 ko point krega 
